@@ -2,6 +2,7 @@ public class StrukturStackTest {
     public static void main(String[] args) {
         StrukturStack stack = new StrukturStack(3);
 
+//        Latihan 4
         System.out.println("#Sebelum push");
         System.out.println("Size: " + stack.size());
         System.out.println("Empty: " + stack.isEmpty());
@@ -10,7 +11,7 @@ public class StrukturStackTest {
         System.out.println("Elemen from TOP: ");
         stack.printElements();
 
-        System.out.println("#Melakukan push 3x:");
+        System.out.println("\n#Melakukan push 3x:");
         stack.push(2);
         stack.push(4);
         stack.push(1);
@@ -21,7 +22,9 @@ public class StrukturStackTest {
         System.out.println("Elemen from TOP: ");
         stack.printElements();
 
-        System.out.println("#Melakukan pop:");
+
+//        Tugas
+        System.out.println("\n#Melakukan pop:");
         stack.pop();
         System.out.println("Size: " + stack.size());
         System.out.println("Empty: " + stack.isEmpty());
